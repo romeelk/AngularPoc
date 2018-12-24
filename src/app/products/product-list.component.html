@@ -39,7 +39,8 @@
                             [src]='product.imageUrl' [width]='imageWidth' [height]='imageHeight' [title]='product.productName'>
                         </td>
                         <td>
-                            {{product.productName}}
+                            <a [routerLink] = "['/products', product.productId]">{{product.productName}}</a>
+                         
                         </td>
                         <td>
                             {{product.productCode | lowercase | convertToSpaces: '-'}}
