@@ -1,9 +1,17 @@
-version: '3.1'
+version: '2.2'
 
 services:
     app:
-        image: 'angulardockertest'
+        image: 'angulardockerapp'
         build: '.'
         ports:
             - 3000:80
        
+    api:
+        image: 'productapi'
+        build: 
+            dockerfile: Dockerfile
+            context: ./src/api/productsapi
+        ports:
+            - 5000:80
+        
