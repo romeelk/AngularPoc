@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject, Optional } from '@angular/core';
+import { RESPONSE } from '@nguniversal/express-engine/tokens';
+import { Response } from 'express';
 
 @Component({
   selector: 'pm-notfound',
@@ -7,7 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NotfoundComponent implements OnInit {
 
-  constructor() { }
+  public pageTitle: string = "Resource Not Found:";
+  public notFoundUrl = window.location.href;
+
+  constructor(
+    @Optional() @Inject(RESPONSE) private response: Response
+  ) {
+  }
 
   ngOnInit() {
   }

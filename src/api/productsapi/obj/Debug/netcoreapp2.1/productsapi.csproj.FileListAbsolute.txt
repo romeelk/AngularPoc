@@ -1,0 +1,14 @@
+/Users/rome3252/Development/angularpoc/APM-Start/src/api/productsapi/bin/Debug/netcoreapp2.1/productsapi.deps.json
+/Users/rome3252/Development/angularpoc/APM-Start/src/api/productsapi/bin/Debug/netcoreapp2.1/productsapi.runtimeconfig.json
+/Users/rome3252/Development/angularpoc/APM-Start/src/api/productsapi/bin/Debug/netcoreapp2.1/productsapi.runtimeconfig.dev.json
+/Users/rome3252/Development/angularpoc/APM-Start/src/api/productsapi/bin/Debug/netcoreapp2.1/productsapi.dll
+/Users/rome3252/Development/angularpoc/APM-Start/src/api/productsapi/bin/Debug/netcoreapp2.1/productsapi.pdb
+/Users/rome3252/Development/angularpoc/APM-Start/src/api/productsapi/obj/Debug/netcoreapp2.1/productsapi.csprojAssemblyReference.cache
+/Users/rome3252/Development/angularpoc/APM-Start/src/api/productsapi/obj/Debug/netcoreapp2.1/productsapi.csproj.CoreCompileInputs.cache
+/Users/rome3252/Development/angularpoc/APM-Start/src/api/productsapi/obj/Debug/netcoreapp2.1/productsapi.RazorAssemblyInfo.cache
+/Users/rome3252/Development/angularpoc/APM-Start/src/api/productsapi/obj/Debug/netcoreapp2.1/productsapi.RazorAssemblyInfo.cs
+/Users/rome3252/Development/angularpoc/APM-Start/src/api/productsapi/obj/Debug/netcoreapp2.1/productsapi.AssemblyInfoInputs.cache
+/Users/rome3252/Development/angularpoc/APM-Start/src/api/productsapi/obj/Debug/netcoreapp2.1/productsapi.AssemblyInfo.cs
+/Users/rome3252/Development/angularpoc/APM-Start/src/api/productsapi/obj/Debug/netcoreapp2.1/productsapi.RazorTargetAssemblyInfo.cache
+/Users/rome3252/Development/angularpoc/APM-Start/src/api/productsapi/obj/Debug/netcoreapp2.1/productsapi.dll
+/Users/rome3252/Development/angularpoc/APM-Start/src/api/productsapi/obj/Debug/netcoreapp2.1/productsapi.pdb
