@@ -48,5 +48,15 @@
     "price": 35.95,
     "starRating": 4.6,
     "imageUrl": "https://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
+  },
+  {
+    "productId": 11,
+    "productName": "Nintendo Game Controller",
+    "productCode": "NIN-0042",
+    "releaseDate": "December 15, 2015",
+    "description": "Standard four-button nintendo game controller",
+    "price": 35.95,
+    "starRating": 4.6,
+    "imageUrl": "https://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
   }
 ]
