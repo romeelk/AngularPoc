@@ -3,17 +3,18 @@ import { IProduct } from "src/app/products/product";
 import { HttpClient, HttpErrorResponse } from "@angular/common/http";
 import { Observable, throwError } from 'rxjs';
 import { catchError, tap, map} from 'rxjs/operators';
-
+import { environment } from 'src/environments/environment';
 @Injectable(
     { providedIn: 'root' }
 )
 export class ProductService {
 
-    private productUrl = 'http://localhost:5000/api/products'
+    private productUrl = environment.apiUrl.concat("/api/products");
 
     constructor(private http: HttpClient) { }
 
     getProducts(): Observable<IProduct[]> {
+        console.log("Connecting to:"+this.productUrl);
         return this.http.get<IProduct[]>(this.productUrl).pipe(
           tap(data => console.log('All: ' + JSON.stringify(data))),
           catchError(this.handleError)
